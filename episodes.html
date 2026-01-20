@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Episodes & Theories - Attack On Titan</title>
+    <style>
+        /* Special Styles for Episodes Page */
+        .ep-header {
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 20px;
+            color: #f02929;
+            text-shadow: #1b1a1a 2px 2px 4px;
+        }
+
+        .intro-text {
+            text-align: center;
+            color: #ddd;
+            max-width: 800px;
+            margin: 0 auto 50px auto;
+            font-size: 18px;
+        }
+
+        .timeline-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .season-card {
+            background: rgba(26, 26, 26, 0.9);
+            border-left: 5px solid #ff3e00;
+            margin-bottom: 40px;
+            padding: 30px;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 20px;
+            transition: 0.3s;
+        }
+
+        .season-card:hover {
+            transform: translateX(10px);
+            box-shadow: -5px 5px 15px rgba(255, 62, 0, 0.2);
+        }
+
+        .season-img {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .season-img img {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid #333;
+        }
+
+        .season-info {
+            flex: 2;
+            color: #f5f5f5;
+        }
+
+        .season-info h2 {
+            font-size: 30px;
+            color: #f02929;
+            margin-bottom: 10px;
+        }
+
+        .season-info .hype-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Hidden Intel Box */
+        .intel-box {
+            background: #111;
+            padding: 15px;
+            border: 1px dashed #555;
+            border-radius: 5px;
+            font-size: 15px;
+            color: #aaa;
+        }
+
+        .intel-box strong {
+            color: #ff3e00;
+            display: block;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Theory Section */
+        .theories-section {
+            background-color: #000;
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+
+        .theory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .theory-card {
+            background: #1a1a1a;
+            padding: 25px;
+            border-radius: 15px;
+            border-top: 3px solid #f02929;
+        }
+
+        .theory-card h3 {
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .theory-card p {
+            color: #ccc;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body class="background">
+
+    <nav class="navbar">
+        <ul class="nav-list" id="navList">
+            <div class="logo"><img src="img/eren.jpeg" alt="logo"></div>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="characters.html">Characters</a></li>
+            <li class="nav-item"><a href="episodes.html" class="active">Episodes</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+        <div class="rightnav">
+            <input type="text" name="search" id="search" placeholder="Search...">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    <h1 class="text-big ep-header">The Story So Far</h1>
+    <p class="intro-text">From the fall of Wall Maria to the Rumbling. Here is the breakdown of the legendary timeline, hidden secrets, and fan theories.</p>
+
+    <div class="timeline-container">
+
+        <div class="season-card">
+            <div class="season-img">
+                <img src="img/season1.jpeg" alt="Season 1">
+            </div>
+            <div class="season-info">
+                <h2>Season 1: The Fall</h2>
+                <p class="hype-text">
+                    Humanity lives in fear inside three walls. But when a Colossal Titan kicks a hole in Wall Maria, the illusion of peace is shattered. <strong>Eren Yeager</strong> watches his mother get eaten and swears to kill every single Titan. The nightmare begins here.
+                </p>
+                <div class="intel-box">
+                    <strong>⚠ Hidden Intel (Spoiler):</strong>
+                    Did you notice the steam coming from Annie Leonhart early in the season? The clues that she was the Female Titan were there from the very beginning.
+                </div>
+            </div>
+        </div>
+
+        <div class="season-card">
+            <div class="season-img">
+                 <img src="img/season2.jpeg" alt="Season 2">
+            </div>
+            <div class="season-info">
+                <h2>Season 2: Betrayal</h2>
+                <p class="hype-text">
+                    The Titans are inside the walls! As the Scouts scramble to uncover the breach, a shocking truth is revealed: The enemies are hiding amongst them. The reveal of the <strong>Armored and Colossal Titans</strong> is one of the most iconic moments in anime history.
+                </p>
+                <div class="intel-box">
+                    <strong>⚠ Hidden Intel (Spoiler):</strong>
+                    The Ending Song of Season 2 ("Yuugure no Tori") actually showed the entire history of Ymir and the Eldians years before it was revealed in the anime!
+                </div>
+            </div>
+        </div>
+
+        <div class="season-card">
+            <div class="season-img">
+                 <img src="img/season3.jpeg" alt="Season 3">
+            </div>
+            <div class="season-info">
+                <h2>Season 3: The Basement</h2>
+                <p class="hype-text">
+                    It's not just Titans anymore; it's humans vs. humans. The Scouts overthrow the corrupt government and finally retake Wall Maria. They reach <strong>The Basement</strong>, discovering that the world is not what they thought. They are not the last humans... they are devils to the rest of the world.
+                </p>
+                <div class="intel-box">
+                    <strong>⚠ Hidden Intel (Spoiler):</strong>
+                    The title of Episode 1 is "To You, in 2000 Years." In Season 3, we learn about the curse of Ymir, connecting the timeline back to the very start.
+                </div>
+            </div>
+        </div>
+
+        <div class="season-card">
+            <div class="season-img">
+                 <img src="img/season4.jpeg" alt="Season 4">
+            </div>
+            <div class="season-info">
+                <h2>The Final Season: War</h2>
+                <p class="hype-text">
+                    4 years later. The battlefield shifts to Marley. Eren is no longer the victim; he is the attacker. Lines between good and evil are blurred as the <strong>Rumbling</strong> begins. The fight for freedom becomes a fight for genocide.
+                </p>
+                <div class="intel-box">
+                    <strong>⚠ Hidden Intel (Spoiler):</strong>
+                    Eren's eyes change color throughout the season, symbolizing the different Titan powers (Founding vs Attack) conflicting within him.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="theories-section">
+        <h1 class="text-big ep-header" style="padding-top:0;">Famous Fan Theories</h1>
+        <div class="theory-grid">
+            
+            <div class="theory-card">
+                <h3>The Time Loop Theory</h3>
+                <p>Many fans believe Eren is stuck in a time loop, trying to find a future where his friends survive. The first words "See you later, Eren" by Mikasa hint that this has happened before.</p>
+            </div>
+
+            <div class="theory-card">
+                <h3>The "Akuma no Ko" Theory</h3>
+                <p>Based on the ending song, this theory suggests that Eren accepted he had to become the "Child of the Devil" to unite the world against him, a sacrificial "Code Geass" style ending.</p>
+            </div>
+
+            <div class="theory-card">
+                <h3>Ymir's Love</h3>
+                <p>The theory that Ymir Fritz wasn't a slave to the King by force, but by a twisted form of love, which is why she waited 2000 years for Mikasa (who could kill the one she loved) to free her.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 Attack on Titan Fan Website</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById("menuToggle");
+        const nav = document.getElementById("navList");
+
+        toggle.onclick = () => {
+            nav.classList.toggle("active");
+        };
+    </script>
+</body>
+</html>

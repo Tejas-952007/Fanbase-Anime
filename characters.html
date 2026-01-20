@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Characters - Attack On Titan</title>
+    <style>
+      .char-header {
+            text-align: center;
+            padding-top: 100px; 
+            color: #f02929;
+            text-shadow: #1b1a1a 2px 2px 4px;
+        }
+        
+        .character-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card h3 {
+            color: #ff3e00;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .card p {
+            color: #ddd;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body class="background">
+    
+    <nav class="navbar">
+        <ul class="nav-list" id="navList">
+            <div class="logo"><img src="img/eren.jpeg" alt="logo"></div>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="characters.html" class="active">Characters</a></li>
+            <li class="nav-item"><a href="episodes.html">Episodes</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+        <div class="rightnav">
+            <input type="text" name="search" id="search" placeholder="Search...">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    <h1 class="text-big char-header">Main Characters</h1>
+
+    <div class="character-grid">
+        
+        <div class="card">
+            <img src="img/eren_char.jpeg" alt="Eren Yeager"> 
+            <h3>Eren Yeager</h3>
+            <p>The main protagonist who swore to destroy all Titans. He possesses the power of the Attack Titan and the Founding Titan, driving the fight for freedom.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/mikasa.jpeg" alt="Mikasa Ackerman">
+            <h3>Mikasa Ackerman</h3>
+            <p>Eren's adoptive sister and the top-ranked soldier of the 104th Training Corps. She possesses immense physical strength and combat skills.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/armin.jpeg" alt="Armin Arlert">
+            <h3>Armin Arlert</h3>
+            <p>Eren's childhood friend. Though physically weaker, his strategic genius and intelligence have saved the Scouts countless times.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/levi.jpg" alt="Levi Ackerman">
+            <h3>Levi Ackerman</h3>
+            <p>The Captain of the Special Operations Squad. Known as "Humanity's Strongest Soldier," he is legendary for his speed and deadly precision.</p>
+        </div>
+
+         <div class="card">
+            <img src="img/erwin.jpeg" alt="Erwin Smith">
+            <h3>Erwin Smith</h3>
+            <p>The 13th Commander of the Survey Corps. A visionary leader willing to sacrifice everything, including his own humanity, for the sake of victory.</p>
+        </div>
+
+        <div class="card">
+            <img src="img/reiner.jpeg" alt="Reiner Braun">
+            <h3>Reiner Braun</h3>
+            <p>A graduate of the 104th Cadet Corps who holds a dark secret. He possesses the power of the Armored Titan.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Attack on Titan Fan Website</p>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById("menuToggle");
+        const nav = document.getElementById("navList");
+
+        toggle.onclick = () => {
+            nav.classList.toggle("active");
+        };
+    </script>
+</body>
+</html>
