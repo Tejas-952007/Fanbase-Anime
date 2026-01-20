@@ -37,3 +37,9 @@ Attack-On-Titan-Website/
 │   └── script.js       # Search Logic & Menu Toggle
 │
 └── img/                # Images folder
+## 📸 Screenshots
+
+| **Home Page** | **Characters Page** |
+|:---:|:---:|
+| ![Home Page](img/home.png) | ![Characters](img/char.png) |
+
