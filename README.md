@@ -38,6 +38,9 @@ Attack-On-Titan-Website/
 │
 └── img/                # Images folder
 ## 📸 Screenshots
+<img width="1841" height="957" alt="home" src="https://github.com/user-attachments/assets/0eaa2126-99b8-4d0f-b7da-db34f455f4a3" />
+<img width="1841" height="957" alt="char" src="https://github.com/user-attachments/assets/69ed2348-42ae-4bc1-889f-3aeb970feaf1" />
+
 
 | **Home Page** | **Characters Page** |
 |:---:|:---:|
